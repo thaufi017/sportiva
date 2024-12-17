@@ -21,7 +21,12 @@
 
 <body>
   <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-    <a href="#" class="navbar-brand">SPORTIVA</a>
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center justify-content-center">
+        <img src="imgs/logo.png" alt="logo" class="navbar-logo">
+        <span class="ml-2">SPORTIVA</span>
+      </a>
+    </div>
   </nav>
 
   <section class="container-fluid px-0">
@@ -51,16 +56,46 @@
       <div class="col-md-6 text-center order-1 order-md-2">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-            <h2>SPORTIVA</h2>
-            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit pariatur iste, quia sed quidem
-              quaerat provident reprehenderit! Natus assumenda praesentium labore amet. Id quibusdam quod inventore,
-              dignissimos autem asperiores ratione.
-              Sint vero consectetur quo repellendus, delectus temporibus. Porro ab quam mollitia ut tempore dolor
-              dolore,
-              vitae reprehenderit asperiores consequuntur? Ad animi officia dicta nulla commodi. Voluptates voluptatibus
-              perspiciatis assumenda placeat!</p>
+            <h2>SCORE BOARD</h2>
+            <!-- Table for Scoreboard with no borders -->
+            <table class="table text-white" style="border: none;">
+              <thead>
+                <tr>
+                  <th style="border: none;" id="year">Year</th>
+                  <th style="border: none;">Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border: none;">First Year</td>
+                  <td style="border: none;">0</td>
+                </tr>
+                <tr>
+                  <td style="border: none;">Second Year</td>
+                  <td style="border: none;">0</td>
+                </tr>
+                <tr>
+                  <td style="border: none;">Third Year</td>
+                  <td style="border: none;">0</td>
+                </tr>
+                <tr>
+                  <td style="border: none;">Fourth Year</td>
+                  <td style="border: none;">0</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Add the quote below the running image -->
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-8 text-center">
+        <blockquote class="blockquote">
+          <p class="mb-0">"Champions are made from something they have deep inside them <br>-a desire, a dream, a vision."</p>
+          <footer class="blockquote-footer">Muhammad Ali</footer>
+        </blockquote>
       </div>
     </div>
   </section>
