@@ -1,5 +1,5 @@
 body, html {
-    overflow-x: hidden;  /* Prevent horizontal scrolling */
+    overflow-x: hidden;
 }
 
 body {
@@ -9,10 +9,10 @@ body {
 
 .blurb h2 {
     color: #c7c3c3;
-    font-weight: bold; /* Poppins bold for Scoreboard */
+    font-weight: bold;
     font-size: 2.5rem;
-    text-align: center; /* Center the "Scoreboard" text */
-    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
 }
 
 .blurb p {
@@ -29,11 +29,13 @@ body {
 .blockquote {
     font-size: 12.5px;
     color: #c7c3c3;
+    font-weight: bold;
 }
 
 .blockquote-footer {
     padding-left: 130px;
     color: #c7c3c3;
+    font-weight: bold;
 }
 #year{
     padding-right: 120px;
@@ -86,21 +88,22 @@ body {
 }
 
 table {
-    width: 100%; /* Ensure table takes full width */
-    margin-top: 20px; /* Add margin for spacing */
-    font-family: 'Poppins', sans-serif; /* Set Poppins font for the table */
-    font-size: 1.125rem; /* Set a good font size */
-    text-align: center; /* Center the table content */
-    margin-bottom: 20px; /* Add some margin below the table */
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.125rem; 
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 table th, table td {
     color: #c7c3c3;
-    padding: 15px; /* Add padding for better spacing */
+    padding: 15px;
+    font-weight: bold;
 }
 
 table td:first-child {
-    text-align: left; /* Align the first column (Year) to the left */
+    text-align: left;
 }
 
 @media(max-width: 1200px) {
